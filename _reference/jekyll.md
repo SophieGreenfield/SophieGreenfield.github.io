@@ -6,4 +6,22 @@ GitHub Pages uses Jekyll to build websites. That is, it's possible to make chang
 
 See https://jekyllrb.com/ for more info.
 
+
+### Using Jekyll
+
 Installation instructions are at https://jekyllrb.com/docs/installation/.
+
+When Jekyll is installed you should be able to run `jekyll serve` from the project directory on the command line (e.g. in MacOS 'Terminal' or Windows 'Command Prompt'), which should then tell give you some output that looks something like:
+```
+Configuration file: <path>/sophiegreenfield.github.io/_config.yaml
+            Source: <path>/sophiegreenfield.github.io
+       Destination: _site/
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 0.09 seconds.
+ Auto-regeneration: enabled for '<path>/sophiegreenfield.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
+
+If you then go to http://127.0.0.1:4000/ (or equivalently http://localhost:4000) in your web browser you should see a preview of your website! If you make any changes you should be able to simply refresh the page to see them. *Note that these changes will not be visible to anyone else until you push them to GitHub!* 
