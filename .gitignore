@@ -1,0 +1,12 @@
+_site/
+
+# Ruby/Jekyll related
+.binstubs/
+.bundle/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Editor related
+**/.idea/

@@ -1,0 +1,48 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output
+// file in the built site.
+
+
+/* Base styling */
+
+body {
+  margin: 60px auto;
+  width: 70%;
+  font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+/* Nav styling */
+
+nav ul, footer ul {
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #999;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer styling */
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+}
+
+footer p {
+  font-size: 0.8em;
+}

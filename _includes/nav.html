@@ -1,0 +1,13 @@
+{% if page.url == "/" %}
+{% assign isHomePage = true %}
+{% endif %}
+
+<nav>
+  <ul>
+  {% for nav in site.nav %}
+    <li>
+      <a href="{{ nav.href }}">{{ nav.name }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</nav>

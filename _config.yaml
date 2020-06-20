@@ -1,0 +1,31 @@
+title: Sophie's Artwork
+
+baseurl: ""
+
+# Navigation
+nav:
+  - name: Home
+    href: /
+  - name: Gallery
+    href: /gallery
+
+
+# Directory layout
+destination:  _site/
+layouts_dir:  _layouts/
+data_dir:     _data/
+includes_dir: _includes/
+sass_dir:     _sass/
+
+exclude: [Gemfile*, README.md]
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+
+# Rendering
+markdown: kramdown
+kramdown:
+  input: GFM  # Github-Flavoured Markdown
