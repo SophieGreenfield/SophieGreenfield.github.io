@@ -1,0 +1,11 @@
+
+- name: Home
+  href: /
+- name: About
+  href: /about
+- name: Paintings
+  href: /paintings
+#- name: Collaborations
+#  href: /collaborations
+- name: Contact
+  href: /contact

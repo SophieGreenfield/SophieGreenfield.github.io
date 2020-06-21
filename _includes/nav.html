@@ -1,13 +1,10 @@
-{% if page.url == "/" %}
-{% assign isHomePage = true %}
-{% endif %}
-
 <nav>
-  <ul>
-  {% for nav in site.nav %}
-    <li>
-      <a href="{{ nav.href }}">{{ nav.name }}</a>
-    </li>
+  {% for item in site.data.nav %}
+  <a href="{{ item.href | relative_url }}"
+     class="nav-button {% if page.url == item.href %}nav-button-current{% endif %}">
+    {{ item.name }}
+  </a>
   {% endfor %}
-  </ul>
 </nav>
+
+<hr/>

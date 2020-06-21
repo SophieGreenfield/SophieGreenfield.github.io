@@ -1,6 +1,6 @@
 ---
 title: Homepage
-layout: default
+layout: home
 ---
 
 # Sophie Greenfield

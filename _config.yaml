@@ -3,14 +3,6 @@ title: Sophie's Artwork
 url: sophiegreenfield.github.io
 baseurl: ""
 
-# Navigation
-nav:
-  - name: Home
-    href: /
-  - name: Gallery
-    href: /gallery
-
-
 # Directory layout
 destination:  _site/
 layouts_dir:  _layouts/
@@ -24,7 +16,6 @@ collections:
   pages:
     output: true
     permalink: /:path
-
 
 # Rendering
 markdown: kramdown
