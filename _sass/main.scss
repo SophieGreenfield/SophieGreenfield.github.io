@@ -3,16 +3,25 @@
 // It does not contain the YAML front matter and has no corresponding output
 // file in the built site.
 
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto/");
+}
 
 /* Base styling */
 
 body {
   margin: 60px auto;
   width: 70%;
-  font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
   background-image: url("/img/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+h1 {
+  font-weight: 300;
 }
 
 
@@ -21,7 +30,7 @@ body {
 nav ul, footer ul {
   padding: 0px;
   list-style: none;
-  font-weight: bold;
+  font-weight: 100;
 }
 
 nav ul li, footer ul li {
