@@ -2,9 +2,16 @@
  * Styling for the home page.
  */
 
+.homepage {
+  padding: 60px;
+  height: 100%;
+  background-image: url("/img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-h1 {
-  font-size: 5em;
-  color: white;
-  text-shadow: 1px 1px 5px #fffa;
+  h1 {
+    font-size: 5em;
+    color: white;
+    text-shadow: 1px 1px 5px #fffa;
+  }
 }

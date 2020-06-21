@@ -3,11 +3,13 @@
  */
 
 
-p {
-  font-style: italic;
-}
+.work-page {
+  p {
+    font-style: italic;
+  }
 
-.artwork p {
-  background-color: #fffa;
-  color: gray;
+  .artwork p {
+    background-color: #fffa;
+    color: gray;
+  }
 }
