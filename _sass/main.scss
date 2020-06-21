@@ -10,6 +10,11 @@
   src: url("/fonts/Roboto/");
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url("/fonts/Montserrat/");
+}
+
 
 /* Base styling */
 
@@ -35,6 +40,7 @@ body {
 
 h1 {
   font-family: Montserrat, sans-serif;
+  font-weight: 300;
 }
 
 hr {
