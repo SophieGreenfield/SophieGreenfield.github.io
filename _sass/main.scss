@@ -14,55 +14,74 @@
 /* Base styling */
 
 body {
-  margin: 60px auto;
-  width: 70%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  height: 100%;
+  padding: 60px;
 
   background-image: url("/img/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 
-  font-family: Roboto, sans-serif;
-}
-
-.container {
   font-weight: 100;
   text-align: center;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+}
+
+hr {
+  margin: 0px;
 }
 
 
 /* Nav styling */
 
-nav ul, footer ul {
-  padding: 0px;
-  list-style: none;
-  font-weight: 100;
+nav {
+  background-color: #fffa;
+  border-radius: 3px;
+  padding: 10px;
+
+  ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: 100;
+
+    li {
+      display: inline;
+      margin-right: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
-nav ul li, footer ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
 
 
 /* Footer styling */
 
 footer {
-  border-top: 1px solid #d5d5d5;
-  font-size: .8em;
-}
+  height: 40px;
+  padding: 10px;
+  text-align: center;
 
-footer p {
-  font-size: 0.8em;
+  img {
+    height: 30px;
+    width: 30px;
+  }
 }
-
 
 /* Homepage styling */
 
