@@ -21,7 +21,7 @@ There are many resources online, try Googling 'git introduction' or 'git tutoria
 
 ### Making changes
 
-It is possible to make changes directly in GitHub, e.g. at [this link](https://github.com/SophieGreenfield/sophiegreenfield.github.io/edit/master/_pages/index.md) (you would need to click 'Commit changes'). However, it's generally best to check things look right before committing changes directly in GitHub (which would make the changes live).
+It is possible to make changes directly in GitHub, e.g. at [this link](https://github.com/SophieGreenfield/SophieGreenfield.github.io/edit/master/_pages/index.md) (you would need to click 'Commit changes'). However, it's generally best to check things look right before committing changes directly in GitHub (which would make the changes live).
 
 The recommended approach is to get a copy of the files on your personal computer, run `jekyll serve` to check it looks right, and then push the changes to GitHub to make them live.
 
@@ -30,7 +30,7 @@ The recommended approach is to get a copy of the files on your personal computer
 
 First you will need Git installed, see [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-Then, on the command line, run `git clone https://github.com/SophieGreenfield/sophiegreenfield.github.io` to get a copy of the repository in a new directory `sophiegreenfield.github.io/`. You can then open the files in an editor.
+Then, on the command line, run `git clone https://github.com/SophieGreenfield/SophieGreenfield.github.io` to get a copy of the repository in a new directory `SophieGreenfield.github.io/`. You can then open the files in an editor.
 
 You will only need to do this once. To pick up changes made by someone else you should run `git pull` before making any changes of your own to avoid making conflicting changes.
 
@@ -38,7 +38,7 @@ You will only need to do this once. To pick up changes made by someone else you 
 ### Pushing changes
 
 If you're happy with the changes you'll want to push them to GitHub to make them live. There are a few steps to follow to do this from the command line:
-- Navigate to the project directory `.../sophiegreenfield.github.io/`
+- Navigate to the project directory `.../SophieGreenfield.github.io/`
 - Add changes you wish to push - assuming you're happy to add all changes you've made under the project directory you can just run `git add .` to add everything.
 - Commit the added changes with `git commit -m "<Enter a useful message about what you've changed here"`
 - Push the changes to GitHub with `git push`
