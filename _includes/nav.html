@@ -1,9 +1,9 @@
 <nav>
   {% for item in site.data.nav %}
-  <a href="{{ item.href | relative_url }}"
-     class="nav-button {% if page.url == item.href %}nav-button-current{% endif %}">
-    {{ item.name }}
-  </a>
+    <a href="{{ item.href | relative_url }}"
+       class="nav-button {% if page.url == item.href %}nav-button-current{% endif %}">
+      {{ item.name }}
+    </a>
   {% endfor %}
 </nav>
 
