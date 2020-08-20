@@ -1,0 +1,21 @@
+- title: Number ONE
+  description: Numero uno, little Juan
+  img_file: num1.png
+- title: Number TWO
+  description: Numero dos
+  img_file: num2.png
+- title: Number THREE
+  description: Numero tres
+  img_file: num3.png
+- title: Number FOUR
+  description: Numero cuatro
+  img_file: num4.png
+- title: Number FIVE
+  description: Numero cinco
+  img_file: num5.png
+- title: Number SIX
+  description: Numero seis
+  img_file: num6.png
+- title: Number SEVEN
+  description: Numero siete
+  img_file: num7.png

@@ -4,12 +4,27 @@
 
 
 .work-page {
+  background: #eef;
+
   p {
     font-style: italic;
   }
 
-  .artwork p {
+  .all-artwork {
+    display: grid;
+  }
+
+  .all-artwork p {
     background-color: #fffa;
     color: gray;
+  }
+
+  .art-piece {
+    padding: 20px;
+
+    img {
+      height: auto;
+      width: 100px;
+    }
   }
 }

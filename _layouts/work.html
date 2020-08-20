@@ -5,9 +5,14 @@ layout: default
 <div class="work-page">
   <h1>{{ page.title }}</h1>
 
-  <div class="artwork">
-    <p>Images will go here.</p>
+  <div class="all-artwork">
+    {% for artwork in site.data[page.data_file] %}
+      <div class="art-piece" style="grid-column: {{ forloop.index | minus: 1 | modulo: 5 | plus: 1 }};">
+        <h3>{{ artwork.title }}</h3>
+        <img src="/img/artwork/{{ artwork.img_file }}"/>
+      </div>
+    {% endfor %}
+
   </div>
 
-  <p>Description will go here.</p>
 </div>
