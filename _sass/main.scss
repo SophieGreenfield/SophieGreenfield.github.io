@@ -32,6 +32,8 @@ body {
 
   font-weight: 100;
   text-align: center;
+
+  padding-bottom: 20px;
 }
 
 .layout-home {
@@ -61,7 +63,7 @@ nav {
     text-decoration: none;
   }
   a:hover {
-    background-color: #ccf;
+    background-color: #ccf9fa;
     text-decoration: underline;
   }
 }

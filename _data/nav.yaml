@@ -3,8 +3,12 @@
   href: /
 - name: About
   href: /about
-- name: Paintings
-  href: /paintings
+- name: Work
+  href: /paintings  # TODO: fix
+#  subgroups:
+#    - drawings
+#    - paintings
+#    - photography
 #- name: Collaborations
 #  href: /collaborations
 - name: Contact
