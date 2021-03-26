@@ -73,12 +73,12 @@ nav {
     position: absolute;
     display: none;
     margin-top: 10px;
+    z-index: 100;
   }
 
   .nav-subpage-elem {
     display: block;
     background-color: white;
-    z-index: 1;
     a {
       display: block;
     }
