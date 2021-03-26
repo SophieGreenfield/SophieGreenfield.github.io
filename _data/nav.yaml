@@ -4,12 +4,15 @@
 - name: About
   href: /about
 - name: Work
-  href: /paintings  # TODO: fix
-#  subgroups:
-#    - drawings
-#    - paintings
-#    - photography
-#- name: Collaborations
-#  href: /collaborations
+  href: /work
+  subpages:
+    - name: Drawings
+      href: /drawings
+    - name: Paintings
+      href: /paintings
+    - name: Photography
+      href: /photography
+    #- name: Collaborations
+    #  href: /collaborations
 - name: Contact
   href: /contact

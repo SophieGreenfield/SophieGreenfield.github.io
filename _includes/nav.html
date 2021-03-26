@@ -1,17 +1,20 @@
 <nav>
   {% for item in site.data.nav %}
-    <a href="{{ item.href | relative_url }}"
-       class="nav-button {% if page.url == item.href %}nav-button-current{% endif %}">
-      {{ item.name }}
-    </a>
+    <div class="nav-subpage-container">
+      <a href="{{ item.href | relative_url }}"
+         class="nav-button {% if page.url == item.href %}nav-button-current{% endif %}">
+        {{ item.name }}
+      </a>
 
-    {% if item.subgroups %}
-      <ul>
-      {% for group in item.subgroups %}
-        <li>{{ group }}</li>
-      {% endfor %}
-      </ul>
-    {% endif %}
-
+      {% if item.subpages %}
+        <div class="nav-subpage-list">
+          {% for group in item.subpages %}
+            <div class="nav-subpage-elem">
+              <a href="{{ group.href | relative_url }}">{{ group.name }}</a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
   {% endfor %}
 </nav>

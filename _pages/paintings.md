@@ -1,5 +1,5 @@
 ---
-title: Work
+title: Paintings
 layout: work
 data_file: paintings
 ---
