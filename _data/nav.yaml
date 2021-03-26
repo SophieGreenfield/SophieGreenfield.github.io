@@ -4,7 +4,6 @@
 - name: About
   href: /about
 - name: Work
-  href: /work
   subpages:
     - name: Drawings
       href: /drawings
