@@ -3,8 +3,15 @@
  */
 
 
-.work-page {
+.work-page-container {
   background: #9ae5f6;
+}
+
+.work-page-content {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   p {
     font-style: italic;
@@ -38,6 +45,7 @@
         height: 100%;
         opacity: 0;
         transition: opacity 0.3s ease-in-out;
+        text-align: center;
       }
     }
 

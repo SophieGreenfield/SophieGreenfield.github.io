@@ -26,13 +26,15 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.container {
+.page-content {
   display: flex;
   flex-direction: column;
 
   font-weight: 100;
-  text-align: center;
+  text-align: justify;
 
+  padding-left: 150px;
+  padding-right: 150px;
   padding-bottom: 20px;
 }
 
