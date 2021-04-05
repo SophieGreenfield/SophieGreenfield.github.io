@@ -25,6 +25,8 @@ It is possible to make changes directly in GitHub, e.g. at [this link](https://g
 
 The recommended approach is to get a copy of the files on your personal computer, run `jekyll serve` to check it looks right, and then push the changes to GitHub to make them live.
 
+You can validate YAML file content using <https://yaml-online-parser.appspot.com/>.
+
 
 ### Getting the files
 
