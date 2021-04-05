@@ -1,21 +1,12 @@
-- title: Number ONE
-  description: Numero uno, little Juan
-  img_file: num1.png
-- title: Number TWO
-  description: Numero dos
-  img_file: num2.png
-- title: Number THREE
-  description: Numero tres
-  img_file: num3.png
-- title: Number FOUR
-  description: Numero cuatro
-  img_file: num4.png
-- title: Number FIVE
-  description: Numero cinco
-  img_file: num5.png
-- title: Number SIX
-  description: Numero seis
-  img_file: num6.png
-- title: Number SEVEN
-  description: Numero siete
-  img_file: num7.png
+- title: Paulina (2021)
+  description: 53 x 42cm, Acrylic Paint and Oil Pastel On Paper 
+  img_file: Paulina 2021.jpg
+- title: Still Life (2021)
+  description: 59 x 43cm, Spray Paint and Oil Pastel On Paper 
+  img_file: Still Life 2021.jpg
+- title: Lewis (2021)
+  description: 29 x 35cm, Acrylic Paint, Coloured Pencil, and Oil Pastel on Paper
+  img_file: Lewis 2021.jpg
+- title: Work in Colour (2021)
+  description: 29.7 x 42cm, Spray Paint and Oil Pastel On Paper
+  img_file: Work in Colour.jpg
