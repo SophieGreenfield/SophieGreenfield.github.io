@@ -10,7 +10,7 @@ layout: base
       {% for artwork in site.data[page.data_file] %}
         <div class="art-piece" style="grid-column: {{ forloop.index | minus: 1 | modulo: 4 | plus: 1 }};">
           <div class="img-container">
-            <img src="/img/artwork/{{ artwork.img_file }}"/>
+            <img src="/img/thumbnails/{{ artwork.img_file }}"/>
             <div class="art-overlay">
               <h3>{{ artwork.title }}</h3>
               <p>{{ artwork.description }}</p>
